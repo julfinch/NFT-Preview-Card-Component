@@ -37,8 +37,6 @@ Users should be able to:
 1. Created a div to put all details in the nft card .
 2. After everything is already in place, I focused next on putting the overlay image of icon-view above the nft art image.
 3. Then put the card at the middle of the page.
-4. After that, I created two divs to become my primary and secondary shadow at the back of the card to crete depth.
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -49,7 +47,8 @@ Users should be able to:
 
 This challenge gave me my first implementation of overlaying an image over another and applying opacity to it. I've learned a lot about it.
 
-I also was able to play a lot on how to put the shadow effect at the back of the card by creating two divs named as primary-shadow and secondary-shadow.
+EDIT:
+In my first commit, I used absolute positioning to center the card. After posting the solution in frontendmentor, I got a feedback from Mr. Deniel Den (@denielden) and he gave me several tips to improve my code. Aside from suggesting to add a main tag to wrap the card for accessibility, he also mentioned to use modern css like flexbox or grid to center the card instead of using absolute positioning since it is already "deprecated". I have no idea that it is already so, his feedback was really a big help.
 
 ### Useful resources
 
@@ -57,7 +56,6 @@ I also was able to play a lot on how to put the shadow effect at the back of the
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@julfinch](https://www.frontendmentor.io/profile/julfinch)
 - Twitter - [@julfinch](https://www.twitter.com/julfinch)
 
