@@ -14,6 +14,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #card {
     width: 325px;
@@ -121,19 +122,25 @@ html {
     color: hsl(215, 51%, 70%);
 }
 .attribution { 
+    width: 100%;
     font-size: 9px; 
     text-align: center;
     position: absolute;
-    bottom: 1px;
-    left: 50%;
-    transform: translate(-50%);
+    bottom: 0;
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
 
 @media (min-width: 375px) and (max-width:990px) {
+    body {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
     .attribution {
-        width: 345px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
     }
 }
